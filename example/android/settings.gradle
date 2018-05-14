@@ -1,0 +1,5 @@
+rootProject.name = 'example'
+include ':mlb-rngvr'
+project(':mlb-rngvr').projectDir = new File(rootProject.projectDir, '../node_modules/mlb-rngvr/android')
+
+include ':app'

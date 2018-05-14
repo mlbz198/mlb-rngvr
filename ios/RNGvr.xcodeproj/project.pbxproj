@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6854AB211FDB878F00160BA2 /* VrVideoManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 68B604481FDA47CA00F134F7 /* VrVideoManager.h */; };
+		6854AB221FDB879100160BA2 /* VrVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B604491FDA47CA00F134F7 /* VrVideoManager.m */; };
+		6854AB231FDB879300160BA2 /* VrVideoView.h in Sources */ = {isa = PBXBuildFile; fileRef = 68B6044A1FDA47CA00F134F7 /* VrVideoView.h */; };
+		6854AB241FDB879500160BA2 /* VrVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6854AAF81FDB83A200160BA2 /* VrVideoView.m */; };
+		6854AB251FDB879800160BA2 /* PanoramaManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 68B604421FDA47BB00F134F7 /* PanoramaManager.h */; };
+		6854AB261FDB879A00160BA2 /* PanoramaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B604431FDA47BB00F134F7 /* PanoramaManager.m */; };
+		6854AB271FDB879C00160BA2 /* PanoramaView.h in Sources */ = {isa = PBXBuildFile; fileRef = 68B604471FDA47CA00F134F7 /* PanoramaView.h */; };
+		6854AB281FDB87A000160BA2 /* PanoramaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B604441FDA47BB00F134F7 /* PanoramaView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134814201AA4EA6300B7C361 /* libRNGvr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNGvr.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6854AAF81FDB83A200160BA2 /* VrVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VrVideoView.m; sourceTree = "<group>"; };
+		688E75281FDA4AD80023DA5E /* libGVRSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGVRSDK.a; sourceTree = "<group>"; };
+		688E752A1FDA4AD80023DA5E /* CardboardSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CardboardSDK.bundle; sourceTree = "<group>"; };
+		688E752B1FDA4AD80023DA5E /* GoogleKitCore.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleKitCore.bundle; sourceTree = "<group>"; };
+		688E752C1FDA4AD80023DA5E /* GoogleKitDialogs.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleKitDialogs.bundle; sourceTree = "<group>"; };
+		688E752D1FDA4AD80023DA5E /* GoogleKitHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleKitHUD.bundle; sourceTree = "<group>"; };
+		688E752E1FDA4AD80023DA5E /* MaterialRobotoFontLoader.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MaterialRobotoFontLoader.bundle; sourceTree = "<group>"; };
+		688E75301FDA4AD80023DA5E /* GVRAudioEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GVRAudioEngine.h; sourceTree = "<group>"; };
+		688E75311FDA4AD80023DA5E /* GVRCardboardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GVRCardboardView.h; sourceTree = "<group>"; };
+		688E75321FDA4AD80023DA5E /* GVRHeadTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GVRHeadTransform.h; sourceTree = "<group>"; };
+		688E75331FDA4AD80023DA5E /* GVROverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GVROverlayView.h; sourceTree = "<group>"; };
+		688E75341FDA4AD80023DA5E /* GVRPanoramaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GVRPanoramaView.h; sourceTree = "<group>"; };
+		688E75351FDA4AD80023DA5E /* GVRVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GVRVideoView.h; sourceTree = "<group>"; };
+		688E75361FDA4AD80023DA5E /* GVRWidgetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GVRWidgetView.h; sourceTree = "<group>"; };
+		688E753B1FDA4AD80023DA5E /* gvr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gvr.h; sourceTree = "<group>"; };
+		688E753C1FDA4AD80023DA5E /* gvr_audio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gvr_audio.h; sourceTree = "<group>"; };
+		688E753D1FDA4AD80023DA5E /* gvr_audio_surround.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gvr_audio_surround.h; sourceTree = "<group>"; };
+		688E753E1FDA4AD80023DA5E /* gvr_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gvr_types.h; sourceTree = "<group>"; };
+		688E753F1FDA4AD80023DA5E /* gvr_version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gvr_version.h; sourceTree = "<group>"; };
+		68B604421FDA47BB00F134F7 /* PanoramaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramaManager.h; sourceTree = "<group>"; };
+		68B604431FDA47BB00F134F7 /* PanoramaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramaManager.m; sourceTree = "<group>"; };
+		68B604441FDA47BB00F134F7 /* PanoramaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramaView.m; sourceTree = "<group>"; };
+		68B604471FDA47CA00F134F7 /* PanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramaView.h; sourceTree = "<group>"; };
+		68B604481FDA47CA00F134F7 /* VrVideoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VrVideoManager.h; sourceTree = "<group>"; };
+		68B604491FDA47CA00F134F7 /* VrVideoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VrVideoManager.m; sourceTree = "<group>"; };
+		68B6044A1FDA47CA00F134F7 /* VrVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VrVideoView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRNGvr.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				688E75261FDA4AD80023DA5E /* GVRSDK */,
+				68B604481FDA47CA00F134F7 /* VrVideoManager.h */,
+				68B604491FDA47CA00F134F7 /* VrVideoManager.m */,
+				68B6044A1FDA47CA00F134F7 /* VrVideoView.h */,
+				6854AAF81FDB83A200160BA2 /* VrVideoView.m */,
+				68B604421FDA47BB00F134F7 /* PanoramaManager.h */,
+				68B604431FDA47BB00F134F7 /* PanoramaManager.m */,
+				68B604471FDA47CA00F134F7 /* PanoramaView.h */,
+				68B604441FDA47BB00F134F7 /* PanoramaView.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		688E75261FDA4AD80023DA5E /* GVRSDK */ = {
+			isa = PBXGroup;
+			children = (
+				688E75271FDA4AD80023DA5E /* Libraries */,
+				688E75291FDA4AD80023DA5E /* Resources */,
+				688E752F1FDA4AD80023DA5E /* Sources */,
+			);
+			name = GVRSDK;
+			path = ../../../ios/Pods/GVRSDK;
+			sourceTree = "<group>";
+		};
+		688E75271FDA4AD80023DA5E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				688E75281FDA4AD80023DA5E /* libGVRSDK.a */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		688E75291FDA4AD80023DA5E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				688E752A1FDA4AD80023DA5E /* CardboardSDK.bundle */,
+				688E752B1FDA4AD80023DA5E /* GoogleKitCore.bundle */,
+				688E752C1FDA4AD80023DA5E /* GoogleKitDialogs.bundle */,
+				688E752D1FDA4AD80023DA5E /* GoogleKitHUD.bundle */,
+				688E752E1FDA4AD80023DA5E /* MaterialRobotoFontLoader.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		688E752F1FDA4AD80023DA5E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				688E75301FDA4AD80023DA5E /* GVRAudioEngine.h */,
+				688E75311FDA4AD80023DA5E /* GVRCardboardView.h */,
+				688E75321FDA4AD80023DA5E /* GVRHeadTransform.h */,
+				688E75331FDA4AD80023DA5E /* GVROverlayView.h */,
+				688E75341FDA4AD80023DA5E /* GVRPanoramaView.h */,
+				688E75351FDA4AD80023DA5E /* GVRVideoView.h */,
+				688E75361FDA4AD80023DA5E /* GVRWidgetView.h */,
+				688E75371FDA4AD80023DA5E /* vr */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		688E75371FDA4AD80023DA5E /* vr */ = {
+			isa = PBXGroup;
+			children = (
+				688E75381FDA4AD80023DA5E /* gvr */,
+			);
+			path = vr;
+			sourceTree = "<group>";
+		};
+		688E75381FDA4AD80023DA5E /* gvr */ = {
+			isa = PBXGroup;
+			children = (
+				688E75391FDA4AD80023DA5E /* capi */,
+			);
+			path = gvr;
+			sourceTree = "<group>";
+		};
+		688E75391FDA4AD80023DA5E /* capi */ = {
+			isa = PBXGroup;
+			children = (
+				688E753A1FDA4AD80023DA5E /* include */,
+			);
+			path = capi;
+			sourceTree = "<group>";
+		};
+		688E753A1FDA4AD80023DA5E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				688E753B1FDA4AD80023DA5E /* gvr.h */,
+				688E753C1FDA4AD80023DA5E /* gvr_audio.h */,
+				688E753D1FDA4AD80023DA5E /* gvr_audio_surround.h */,
+				688E753E1FDA4AD80023DA5E /* gvr_types.h */,
+				688E753F1FDA4AD80023DA5E /* gvr_version.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RNGvr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNGvr" */;
+			buildPhases = (
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNGvr;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNGvr.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNGvr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RNGvr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6854AB211FDB878F00160BA2 /* VrVideoManager.h in Sources */,
+				6854AB221FDB879100160BA2 /* VrVideoManager.m in Sources */,
+				6854AB231FDB879300160BA2 /* VrVideoView.h in Sources */,
+				6854AB241FDB879500160BA2 /* VrVideoView.m in Sources */,
+				6854AB251FDB879800160BA2 /* PanoramaManager.h in Sources */,
+				6854AB261FDB879A00160BA2 /* PanoramaManager.m in Sources */,
+				6854AB271FDB879C00160BA2 /* PanoramaView.h in Sources */,
+				6854AB281FDB87A000160BA2 /* PanoramaView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNGvr;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNGvr;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNGvr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNGvr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}

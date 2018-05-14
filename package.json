@@ -1,0 +1,26 @@
+{
+  "name": "mlb-rngvr",
+  "version": "1.0.5",
+  "description": "A bridge of react-native with google vr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "react-native",
+    "video-360",
+    "video-vr",
+    "360",
+    "gvrsdk"
+  ],
+  "author": "",
+  "license": "",
+  "peerDependencies": {
+    "react-native": "^0.55.4",
+    "react-native-windows": "0.54.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minhlocbong/mlb-rngvr"
+  }
+}
